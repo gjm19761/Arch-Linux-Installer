@@ -1,4 +1,4 @@
-#!/bin/bash
+y#!/bin/bash
 
 # Function to check if a command exists
 command_exists() {
@@ -62,7 +62,7 @@ style = "red"
 disabled = false
 format = '🕙[\[ $time \]]($style) '
 time_format = "%T"
-style = "bright-black"
+style = "grey"
 
 [cmd_duration]
 min_time = 500
