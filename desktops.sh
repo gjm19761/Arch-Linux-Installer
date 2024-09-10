@@ -179,7 +179,16 @@ menu() {
         if [[ ${options[i]} == $1 ]]; then
             echo -e "${GREEN}> ${options[i]}${NC}"
         else
-            echo -e "${NC}  ${options[i]}"
+            case $i in
+                0) echo -e "${RED}  ${options[i]}${NC}";;
+                1) echo -e "${BLUE}  ${options[i]}${NC}";;
+                2) echo -e "${MAGENTA}  ${options[i]}${NC}";;
+                3) echo -e "${CYAN}  ${options[i]}${NC}";;
+                4) echo -e "${YELLOW}  ${options[i]}${NC}";;
+                5) echo -e "${GREEN}  ${options[i]}${NC}";;
+                6) echo -e "${BLUE}  ${options[i]}${NC}";;
+                7) echo -e "${RED}  ${options[i]}${NC}";;
+            esac
         fi
     done
 }
