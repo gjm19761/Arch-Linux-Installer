@@ -6,7 +6,7 @@
 
 Arch Linux Install Script for a customized Arch Linux system.
 
-Our script is used after booting from the original Arch Linux installation media.
+Our script is used after booting from the latest original Arch Linux installation media.
 
 It contains the same commands that you would type and execute one by one interactively to complete the installation. This automation makes the installation easy and fast, as fast as your internet connection allows.
 
